@@ -1,0 +1,42 @@
+
+main {
+  display: grid;
+  place-items: center;
+  margin: auto;
+ 
+  height: 250px;
+  width: 40%;
+  border-radius: 10px;
+  background: rgba(22, 21, 21, 0.5);
+  box-sizing: border-box;
+  box-shadow: 15px 15px 15px 15px rgba(99, 138, 136, 0.493);
+}
+
+h1, h3 {
+  display: grid;
+  place-items: center;
+  margin: auto;
+  width: 40%;
+  border-radius: 5px;
+  color: #465363;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+}
+
+option {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 10px;
+  align-items: center;
+}
+
+button {
+  height: 30px;
+  width: 30px;
+  font-size: 15px;
+  align-items: center;
+}
