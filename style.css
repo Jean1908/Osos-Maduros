@@ -1,9 +1,32 @@
+@media only screen and (max-width: 375px) {
+  * {
+    background-color: darkcyan;
+  }
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 main {
   display: grid;
   place-items: center;
   margin: auto;
- 
+
   height: 250px;
   width: 40%;
   border-radius: 10px;
@@ -12,7 +35,8 @@ main {
   box-shadow: 15px 15px 15px 15px rgba(99, 138, 136, 0.493);
 }
 
-h1, h3 {
+h1,
+h3 {
   display: grid;
   place-items: center;
   margin: auto;
