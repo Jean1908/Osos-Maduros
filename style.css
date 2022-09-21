@@ -12,7 +12,7 @@
   }
 
   .container1 p {
-    font-size: 10px;
+    font-size: 100px;
     text-align: center;
   }
   .container1 .option button {
@@ -21,18 +21,7 @@
     font-size: 8px;
     align-items: center;
   }
-  main  {
-    display: grid;
-    place-items: center;
-    margin: auto;
-    height: 150px;
-    width: 20%;
-    border-radius: 10px;
-    background: rgba(22, 21, 21, 0.5);
-    box-sizing: border-box;
-    box-shadow: 5px 5px 5px 5px rgba(99, 138, 136, 0.493);
-  }
-
+  
 }
 
 
