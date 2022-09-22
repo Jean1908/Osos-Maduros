@@ -3,7 +3,7 @@ document.getElementById("nombre").innerHTML = nombreUsuario + " ";
 
 const si = document.querySelector('#si')
 si.addEventListener('click', () => {
-  alert('Sos pija de alcoholico ' + nombreUsuario + ', tendremos que tomarlos unas seis caguamas para explicarte que no todo es beber. Cristo te ama')
+  alert('Tenes problemas serios con el alcohol ' + nombreUsuario + ', para eso estamos tus amigos para apoyarte.')
 })
 
 const no = document.querySelector('#no')

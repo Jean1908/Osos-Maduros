@@ -1,19 +1,21 @@
 @media only screen and (max-width: 700px) {
- 
+
   h1,
   h3 {
     display: grid;
     place-items: center;
     margin: auto;
-    width: 10%;
+   
+    width: 100%;
     border-radius: 5px;
     color: #465363;
     font-size: 15px;
   }
 
   .container1 p {
-    font-size: 15px;
+    font-size: 13px;
   }
+
   .option {
     display: flex;
     justify-content: space-between;
@@ -21,10 +23,22 @@
     padding: 10px;
     align-items: center;
   }
+
+  body main {
+    display: grid;
+    place-items: center;
+    margin: auto;
+    height: 150px;
+    width: 50%;
+    border-radius: 10px;
+    background: rgba(22, 21, 21, 0.5);
+    box-sizing: border-box;
+    box-shadow: 15px 15px 15px 15px rgba(99, 138, 136, 0.493);
+  }
 }
 
 
-body{
+body {
   padding: 150px;
 }
 
